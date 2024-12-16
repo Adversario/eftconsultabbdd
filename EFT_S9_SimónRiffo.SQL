@@ -32,7 +32,7 @@ ORDER BY "CLI_20_ANIOS" ASC;
 
 -- INFORME 2 -- CON OPERADORES SET --
 -------------------------------------
-Aquí se utiliza un operador SET para combinar los resultados de dos conjuntos, sirve bastante para dividir el rango de los meses en dos subconjuntos y luego unir los resultados.
+-- Aquí se utiliza un operador SET para combinar los resultados de dos conjuntos, sirve bastante para dividir el rango de los meses en dos subconjuntos y luego unir los resultados.
 
 SELECT 
     TO_CHAR(SYSDATE, 'DD-MM-YYYY') AS "FECHA_EMISION",
